@@ -1,0 +1,6 @@
+#Tue Aug 25 09:29:13 UTC 2026
+SAPCI_OAuth_Credential=HTTP_CIApi_OAuth
+SAP_Receiver=None
+SAP_Sender=SAP_CI
+XOM_InterfaceID=GLOBAL99001025_CommonUtilities_UniversalSearch
+XOM_StoreMessage_DS=false
