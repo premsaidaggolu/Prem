@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><projectDescription>
+   <name>Global-Vendor-Onboarding-Compliance-Hub</name>
+   <comment/>
+   <projects/>
+   <buildSpec>
+      <buildCommand>
+         <name>Global-Vendor-Onboarding-Compliance-Hub</name>
+         <arguments/>
+      </buildCommand>
+   </buildSpec>
+   <natures>
+      <nature>org.eclipse.jdt.core.javanature</nature>
+      <nature>com.sap.ide.ifl.project.support.project.nature</nature>
+      <nature>com.sap.ide.ifl.bsn</nature>
+   </natures>
+</projectDescription>
