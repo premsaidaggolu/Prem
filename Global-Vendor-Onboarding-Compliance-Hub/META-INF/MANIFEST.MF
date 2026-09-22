@@ -2,7 +2,7 @@ Manifest-Version: 1.0
 SAP-RuntimeProfile: iflmap
 Bundle-SymbolicName: Global-Vendor-Onboarding-Compliance-Hub
 Bundle-Name: Global Vendor Onboarding and Compliance Hub
-Bundle-Version: 0.0.1
+Bundle-Version: 0.0.2
 Bundle-ManifestVersion: 2
 Origin-Bundle-SymbolicName: Global-Vendor-Onboarding-Compliance-Hub
 SAP-NodeType: IFLMAP

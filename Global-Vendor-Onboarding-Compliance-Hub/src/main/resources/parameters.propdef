@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><parameters>
-  <parameter>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><parameters><parameter>
     <key/>
     <name>Vendor Portal HTTPS Path (e.g. /vendor-onboarding/register)</name>
     <type>xsd:string</type>
@@ -7,8 +6,7 @@
     <constraint/>
     <description>Inbound HTTPS URL path for vendor registration webhook</description>
     <additionalMetadata/>
-  </parameter>
-  <parameter>
+  </parameter><parameter>
     <key/>
     <name>Procurement OData V4 URL (e.g. https://procurement.example.com/api/v4)</name>
     <type>xsd:string</type>
@@ -16,8 +14,7 @@
     <constraint/>
     <description>Procurement system OData V4 base URL for vendor master creation</description>
     <additionalMetadata/>
-  </parameter>
-  <parameter>
+  </parameter><parameter>
     <key/>
     <name>Procurement Credential (e.g. Procurement_BasicCreds)</name>
     <type>xsd:string</type>
@@ -25,8 +22,7 @@
     <constraint/>
     <description>Security Material alias for procurement system authentication</description>
     <additionalMetadata/>
-  </parameter>
-  <parameter>
+  </parameter><parameter>
     <key/>
     <name>SAP IDoc Receiver Address (e.g. https://erp.example.com/sap/idoc)</name>
     <type>xsd:string</type>
@@ -34,8 +30,7 @@
     <constraint/>
     <description>SAP ERP IDoc receiver endpoint for CREMAS05 vendor master</description>
     <additionalMetadata/>
-  </parameter>
-  <parameter>
+  </parameter><parameter>
     <key/>
     <name>SAP IDoc Credential (e.g. SAP_ERP_Creds)</name>
     <type>xsd:string</type>
@@ -43,8 +38,7 @@
     <constraint/>
     <description>Security Material alias for SAP ERP IDoc authentication</description>
     <additionalMetadata/>
-  </parameter>
-  <parameter>
+  </parameter><parameter>
     <key/>
     <name>Risk Score Threshold (e.g. 70)</name>
     <type>xsd:string</type>
@@ -52,17 +46,7 @@
     <constraint/>
     <description>Numeric risk score threshold; scores above this are flagged HIGH</description>
     <additionalMetadata/>
-  </parameter>
-  <parameter>
-    <key/>
-    <name>Nightly Reconciliation Schedule</name>
-    <type>custom:schedule</type>
-    <isRequired>false</isRequired>
-    <constraint/>
-    <description>Cron schedule for nightly vendor reconciliation job (default 1 AM)</description>
-    <additionalMetadata/>
-  </parameter>
-  <parameter>
+  </parameter><parameter>
     <key/>
     <name>Procurement OData V2 URL (e.g. https://procurement.example.com/odata/v2)</name>
     <type>xsd:string</type>
@@ -70,8 +54,7 @@
     <constraint/>
     <description>Procurement system OData V2 base URL for active vendor fetch</description>
     <additionalMetadata/>
-  </parameter>
-  <parameter>
+  </parameter><parameter>
     <key/>
     <name>Finance SFTP Host (e.g. sftp.finance.example.com)</name>
     <type>xsd:string</type>
@@ -79,8 +62,7 @@
     <constraint/>
     <description>Finance team SFTP server hostname</description>
     <additionalMetadata/>
-  </parameter>
-  <parameter>
+  </parameter><parameter>
     <key/>
     <name>Finance SFTP Path Outbound (e.g. /outbound/reports)</name>
     <type>xsd:string</type>
@@ -88,8 +70,7 @@
     <constraint/>
     <description>SFTP path for dropping reconciliation report files</description>
     <additionalMetadata/>
-  </parameter>
-  <parameter>
+  </parameter><parameter>
     <key/>
     <name>Finance SFTP Path Inbound ACK (e.g. /inbound/ack)</name>
     <type>xsd:string</type>
@@ -97,8 +78,7 @@
     <constraint/>
     <description>SFTP path to poll for acknowledgement files from finance</description>
     <additionalMetadata/>
-  </parameter>
-  <parameter>
+  </parameter><parameter>
     <key/>
     <name>Finance SFTP Path Bank Details (e.g. /inbound/bank-updates)</name>
     <type>xsd:string</type>
@@ -106,8 +86,7 @@
     <constraint/>
     <description>SFTP path monitored for incoming bank detail update files</description>
     <additionalMetadata/>
-  </parameter>
-  <parameter>
+  </parameter><parameter>
     <key/>
     <name>Finance SFTP Credential (e.g. Finance_SFTP_Creds)</name>
     <type>xsd:string</type>
@@ -115,8 +94,7 @@
     <constraint/>
     <description>Security Material alias for finance SFTP authentication</description>
     <additionalMetadata/>
-  </parameter>
-  <parameter>
+  </parameter><parameter>
     <key/>
     <name>Bank Validation API URL (e.g. https://bankvalidate.example.com/api/v1/validate)</name>
     <type>xsd:string</type>
@@ -124,8 +102,7 @@
     <constraint/>
     <description>External bank validation REST API endpoint</description>
     <additionalMetadata/>
-  </parameter>
-  <parameter>
+  </parameter><parameter>
     <key/>
     <name>Bank Validation API Credential (e.g. BankValidate_OAuth2)</name>
     <type>xsd:string</type>
@@ -133,8 +110,7 @@
     <constraint/>
     <description>Security Material alias for bank validation API OAuth2 client credentials</description>
     <additionalMetadata/>
-  </parameter>
-  <parameter>
+  </parameter><parameter>
     <key/>
     <name>Legacy SOAP Partner Address (e.g. https://legacy.partner.example.com/po/confirm)</name>
     <type>xsd:string</type>
@@ -142,8 +118,7 @@
     <constraint/>
     <description>Downstream legacy SOAP partner endpoint for PO confirmation</description>
     <additionalMetadata/>
-  </parameter>
-  <parameter>
+  </parameter><parameter>
     <key/>
     <name>Legacy SOAP Credential (e.g. LegacyPartner_Creds)</name>
     <type>xsd:string</type>
@@ -151,8 +126,7 @@
     <constraint/>
     <description>Security Material alias for legacy SOAP partner authentication</description>
     <additionalMetadata/>
-  </parameter>
-  <parameter>
+  </parameter><parameter>
     <key/>
     <name>PO Invoice iFlow Address (e.g. /po-invoice-matching)</name>
     <type>xsd:string</type>
@@ -160,8 +134,7 @@
     <constraint/>
     <description>ProcessDirect address of the existing PO-to-Invoice-Matching iFlow</description>
     <additionalMetadata/>
-  </parameter>
-  <parameter>
+  </parameter><parameter>
     <key/>
     <name>SuccessFactors URL (e.g. https://api.successfactors.com)</name>
     <type>xsd:string</type>
@@ -169,8 +142,7 @@
     <constraint/>
     <description>SuccessFactors API base URL for contractor/employee enrichment lookups</description>
     <additionalMetadata/>
-  </parameter>
-  <parameter>
+  </parameter><parameter>
     <key/>
     <name>SuccessFactors Credential (e.g. SF_OAuth_Creds)</name>
     <type>xsd:string</type>
@@ -178,8 +150,7 @@
     <constraint/>
     <description>Security Material alias for SuccessFactors authentication</description>
     <additionalMetadata/>
-  </parameter>
-  <parameter>
+  </parameter><parameter>
     <key/>
     <name>ServiceNow URL (e.g. https://yourinstance.service-now.com)</name>
     <type>xsd:string</type>
@@ -187,8 +158,7 @@
     <constraint/>
     <description>ServiceNow instance base URL for ticket creation and compliance checks</description>
     <additionalMetadata/>
-  </parameter>
-  <parameter>
+  </parameter><parameter>
     <key/>
     <name>ServiceNow Credential (e.g. ServiceNow_BasicCreds)</name>
     <type>xsd:string</type>
@@ -196,8 +166,7 @@
     <constraint/>
     <description>Security Material alias for ServiceNow authentication</description>
     <additionalMetadata/>
-  </parameter>
-  <parameter>
+  </parameter><parameter>
     <key/>
     <name>Mail Server (e.g. smtp.example.com)</name>
     <type>xsd:string</type>
@@ -205,8 +174,7 @@
     <constraint/>
     <description>SMTP server hostname for all outbound email notifications</description>
     <additionalMetadata/>
-  </parameter>
-  <parameter>
+  </parameter><parameter>
     <key/>
     <name>Mail From (e.g. cpi-alerts@example.com)</name>
     <type>xsd:string</type>
@@ -214,8 +182,7 @@
     <constraint/>
     <description>Sender email address for all CPI-generated notifications</description>
     <additionalMetadata/>
-  </parameter>
-  <parameter>
+  </parameter><parameter>
     <key/>
     <name>Mail Credential (e.g. SMTP_Credentials)</name>
     <type>xsd:string</type>
@@ -223,8 +190,7 @@
     <constraint/>
     <description>Security Material alias for SMTP authentication</description>
     <additionalMetadata/>
-  </parameter>
-  <parameter>
+  </parameter><parameter>
     <key/>
     <name>Compliance Officer Email (e.g. compliance@example.com)</name>
     <type>xsd:string</type>
@@ -232,8 +198,7 @@
     <constraint/>
     <description>Email address for compliance officer - receives high-risk alerts and error notifications</description>
     <additionalMetadata/>
-  </parameter>
-  <parameter>
+  </parameter><parameter>
     <key/>
     <name>Procurement Email (e.g. procurement@example.com)</name>
     <type>xsd:string</type>
@@ -241,8 +206,7 @@
     <constraint/>
     <description>Email address for procurement team notifications</description>
     <additionalMetadata/>
-  </parameter>
-  <parameter>
+  </parameter><parameter>
     <key/>
     <name>Logging Service URL (e.g. https://logging.example.com/api/ingest)</name>
     <type>xsd:string</type>
@@ -250,8 +214,7 @@
     <constraint/>
     <description>Audit logging service endpoint - receives JSON-formatted audit records</description>
     <additionalMetadata/>
-  </parameter>
-  <parameter>
+  </parameter><parameter>
     <key/>
     <name>Logging Service Credential (e.g. LoggingService_Creds)</name>
     <type>xsd:string</type>
@@ -259,8 +222,7 @@
     <constraint/>
     <description>Security Material alias for logging service authentication</description>
     <additionalMetadata/>
-  </parameter>
-  <parameter>
+  </parameter><parameter>
     <key/>
     <name>Audit Log Retention Days (e.g. 90)</name>
     <type>xsd:string</type>
@@ -268,8 +230,7 @@
     <constraint/>
     <description>Number of days to retain audit entries in the data store before purging</description>
     <additionalMetadata/>
-  </parameter>
-  <parameter>
+  </parameter><parameter>
     <key/>
     <name>JMS Queue Name (e.g. Vendor_Master_Sync)</name>
     <type>xsd:string</type>
@@ -277,5 +238,4 @@
     <constraint/>
     <description>JMS queue name for downstream Vendor Master Sync process messages</description>
     <additionalMetadata/>
-  </parameter>
-</parameters>
+  </parameter><param_references><reference attribute_category="Procurement_ODataV4.Receiver.System" attribute_id="ctype::AdapterVariant/cname::HCIOData/tp::HTTP/mp::OData V4/direction::Receiver/version::1.21.0/attrId::address" attribute_uilabel="Address" param_key="Procurement OData V4 URL (e.g. https://procurement.example.com/api/v4)"/><reference attribute_category="SuccessFactors_Enrichment.Receiver.System" attribute_id="ctype::AdapterVariant/cname::SuccessFactors/tp::HTTP/mp::OData V2/direction::Receiver/version::1.21.2/attrId::address" attribute_uilabel="Address" param_key="SuccessFactors URL (e.g. https://api.successfactors.com)"/><reference attribute_category="Mail_ErrorAlert" attribute_id="ctype::AdapterVariant/cname::Mail/tp::SMTP/mp::None/direction::Receiver/version::1.12.1/attrId::server" attribute_uilabel="Address" param_key="Mail Server (e.g. smtp.example.com)"/><reference attribute_category="Mail_ErrorAlert" attribute_id="ctype::AdapterVariant/cname::Mail/tp::SMTP/mp::None/direction::Receiver/version::1.12.1/attrId::from" attribute_uilabel="From" param_key="Mail From (e.g. cpi-alerts@example.com)"/><reference attribute_category="Mail_ErrorAlert" attribute_id="ctype::AdapterVariant/cname::Mail/tp::SMTP/mp::None/direction::Receiver/version::1.12.1/attrId::to" attribute_uilabel="To" param_key="Compliance Officer Email (e.g. compliance@example.com)"/><reference attribute_category="Mail_ErrorAlert" attribute_id="ctype::AdapterVariant/cname::Mail/tp::SMTP/mp::None/direction::Receiver/version::1.12.1/attrId::user" attribute_uilabel="Credential Name" param_key="Mail Credential (e.g. SMTP_Credentials)"/><reference attribute_category="ServiceNow_Compliance.Receiver.Auth" attribute_id="ctype::AdapterVariant/cname::HTTP/tp::HTTP/mp::None/direction::Receiver/version::1.19.4/attrId::credentialName" attribute_uilabel="Credential Name" param_key="ServiceNow Credential (e.g. ServiceNow_BasicCreds)"/><reference attribute_category="ServiceNow_Compliance" attribute_id="ctype::AdapterVariant/cname::HTTP/tp::HTTP/mp::None/direction::Receiver/version::1.19.4/attrId::httpAddressWithoutQuery" attribute_uilabel="Address" param_key="ServiceNow URL (e.g. https://yourinstance.service-now.com)"/><reference attribute_category="SAP_ERP_IDoc.Receiver.System" attribute_id="ctype::AdapterVariant/cname::IDOC/tp::HTTP/mp::IDoc SOAP/direction::Receiver/version::1.8.3/attrId::address" attribute_uilabel="Address" param_key="SAP IDoc Receiver Address (e.g. https://erp.example.com/sap/idoc)"/><reference attribute_category="SAP_ERP_IDoc.Receiver.Auth" attribute_id="ctype::AdapterVariant/cname::IDOC/tp::HTTP/mp::IDoc SOAP/direction::Receiver/version::1.8.3/attrId::credentialName" attribute_uilabel="Credential Name" param_key="SAP IDoc Credential (e.g. SAP_ERP_Creds)"/><reference attribute_category="SFTP_Source" attribute_id="/attrId::path" attribute_uilabel="" param_key="Finance SFTP Path Inbound ACK (e.g. /inbound/ack)"/><reference attribute_category="SFTP_Source" attribute_id="/attrId::credential_name" attribute_uilabel="" param_key="Finance SFTP Credential (e.g. Finance_SFTP_Creds)"/><reference attribute_category="SFTP_Source" attribute_id="/attrId::host" attribute_uilabel="" param_key="Finance SFTP Host (e.g. sftp.finance.example.com)"/><reference attribute_category="POInvoiceMatching_ProcessDirect" attribute_id="ctype::Adapter/cname::ProcessDirect/vendor::SAP/version::1.1.2/attrId::address" attribute_uilabel="Address" param_key="PO Invoice iFlow Address (e.g. /po-invoice-matching)"/><reference attribute_category="Mail_ComplianceAlert" attribute_id="ctype::AdapterVariant/cname::Mail/tp::SMTP/mp::None/direction::Receiver/version::1.12.1/attrId::server" attribute_uilabel="Address" param_key="Mail Server (e.g. smtp.example.com)"/><reference attribute_category="Mail_ComplianceAlert" attribute_id="ctype::AdapterVariant/cname::Mail/tp::SMTP/mp::None/direction::Receiver/version::1.12.1/attrId::from" attribute_uilabel="From" param_key="Mail From (e.g. cpi-alerts@example.com)"/><reference attribute_category="Mail_ComplianceAlert" attribute_id="ctype::AdapterVariant/cname::Mail/tp::SMTP/mp::None/direction::Receiver/version::1.12.1/attrId::to" attribute_uilabel="To" param_key="Compliance Officer Email (e.g. compliance@example.com)"/><reference attribute_category="Mail_ComplianceAlert" attribute_id="ctype::AdapterVariant/cname::Mail/tp::SMTP/mp::None/direction::Receiver/version::1.12.1/attrId::user" attribute_uilabel="Credential Name" param_key="Mail Credential (e.g. SMTP_Credentials)"/><reference attribute_category="Finance_SFTP_Outbound" attribute_id="ctype::AdapterVariant/cname::SFTP/tp::SFTP/mp::File/direction::Receiver/version::1.13.4/attrId::path" attribute_uilabel="Directory" param_key="Finance SFTP Path Outbound (e.g. /outbound/reports)"/><reference attribute_category="Finance_SFTP_Outbound" attribute_id="ctype::AdapterVariant/cname::SFTP/tp::SFTP/mp::File/direction::Receiver/version::1.13.4/attrId::credential_name" attribute_uilabel="Credential Name" param_key="Finance SFTP Credential (e.g. Finance_SFTP_Creds)"/><reference attribute_category="Finance_SFTP_Outbound" attribute_id="ctype::AdapterVariant/cname::SFTP/tp::SFTP/mp::File/direction::Receiver/version::1.13.4/attrId::host" attribute_uilabel="Address" param_key="Finance SFTP Host (e.g. sftp.finance.example.com)"/><reference attribute_category="Mail_Notification" attribute_id="ctype::AdapterVariant/cname::Mail/tp::SMTP/mp::None/direction::Receiver/version::1.12.1/attrId::cc" attribute_uilabel="Cc" param_key="Compliance Officer Email (e.g. compliance@example.com)"/><reference attribute_category="Mail_Notification" attribute_id="ctype::AdapterVariant/cname::Mail/tp::SMTP/mp::None/direction::Receiver/version::1.12.1/attrId::server" attribute_uilabel="Address" param_key="Mail Server (e.g. smtp.example.com)"/><reference attribute_category="Mail_Notification" attribute_id="ctype::AdapterVariant/cname::Mail/tp::SMTP/mp::None/direction::Receiver/version::1.12.1/attrId::from" attribute_uilabel="From" param_key="Mail From (e.g. cpi-alerts@example.com)"/><reference attribute_category="Mail_Notification" attribute_id="ctype::AdapterVariant/cname::Mail/tp::SMTP/mp::None/direction::Receiver/version::1.12.1/attrId::to" attribute_uilabel="To" param_key="Procurement Email (e.g. procurement@example.com)"/><reference attribute_category="Mail_Notification" attribute_id="ctype::AdapterVariant/cname::Mail/tp::SMTP/mp::None/direction::Receiver/version::1.12.1/attrId::user" attribute_uilabel="Credential Name" param_key="Mail Credential (e.g. SMTP_Credentials)"/><reference attribute_category="BankValidation_API.Receiver.Auth" attribute_id="ctype::AdapterVariant/cname::HTTP/tp::HTTP/mp::None/direction::Receiver/version::1.19.4/attrId::credentialName" attribute_uilabel="Credential Name" param_key="Bank Validation API Credential (e.g. BankValidate_OAuth2)"/><reference attribute_category="BankValidation_API" attribute_id="ctype::AdapterVariant/cname::HTTP/tp::HTTP/mp::None/direction::Receiver/version::1.19.4/attrId::httpAddressWithoutQuery" attribute_uilabel="Address" param_key="Bank Validation API URL (e.g. https://bankvalidate.example.com/api/v1/validate)"/><reference attribute_category="VendorPortal" attribute_id="/attrId::urlPath" attribute_uilabel="" param_key="Vendor Portal HTTPS Path (e.g. /vendor-onboarding/register)"/><reference attribute_category="LoggingService.Receiver.Auth" attribute_id="ctype::AdapterVariant/cname::HTTP/tp::HTTP/mp::None/direction::Receiver/version::1.19.4/attrId::credentialName" attribute_uilabel="Credential Name" param_key="Logging Service Credential (e.g. LoggingService_Creds)"/><reference attribute_category="LoggingService" attribute_id="ctype::AdapterVariant/cname::HTTP/tp::HTTP/mp::None/direction::Receiver/version::1.19.4/attrId::httpAddressWithoutQuery" attribute_uilabel="Address" param_key="Logging Service URL (e.g. https://logging.example.com/api/ingest)"/><reference attribute_category="LegacyPartner_SOAP.Receiver.System" attribute_id="ctype::AdapterVariant/cname::SOAP/tp::HTTP/mp::SOAP 1.x/direction::Receiver/version::1.10.0/attrId::address" attribute_uilabel="Address" param_key="Legacy SOAP Partner Address (e.g. https://legacy.partner.example.com/po/confirm)"/><reference attribute_category="LegacyPartner_SOAP.Receiver.Auth" attribute_id="ctype::AdapterVariant/cname::SOAP/tp::HTTP/mp::SOAP 1.x/direction::Receiver/version::1.10.0/attrId::credentialName" attribute_uilabel="Credential Name" param_key="Legacy SOAP Credential (e.g. LegacyPartner_Creds)"/><reference attribute_category="Procurement_ODataV2.Receiver.System" attribute_id="ctype::AdapterVariant/cname::HCIOData/tp::HTTP/mp::OData V2/direction::Receiver/version::1.27.0/attrId::address" attribute_uilabel="Address" param_key="Procurement OData V2 URL (e.g. https://procurement.example.com/odata/v2)"/><reference attribute_category="ServiceNow_CreateTicket.Receiver.Auth" attribute_id="ctype::AdapterVariant/cname::HTTP/tp::HTTP/mp::None/direction::Receiver/version::1.19.4/attrId::credentialName" attribute_uilabel="Credential Name" param_key="ServiceNow Credential (e.g. ServiceNow_BasicCreds)"/><reference attribute_category="ServiceNow_CreateTicket" attribute_id="ctype::AdapterVariant/cname::HTTP/tp::HTTP/mp::None/direction::Receiver/version::1.19.4/attrId::httpAddressWithoutQuery" attribute_uilabel="Address" param_key="ServiceNow URL (e.g. https://yourinstance.service-now.com)"/></param_references></parameters>
