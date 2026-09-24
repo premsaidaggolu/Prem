@@ -1,0 +1,3 @@
+#Store metainfo properties
+#Thu Sep 24 10:23:05 UTC 2026
+description=New Sales order creation interface\: HTTPS inbound, JSON to XML conversion, extract material number and generate random sales order number as properties, build JSON response
